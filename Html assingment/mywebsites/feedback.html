@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Feedback Form</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<h2>Feedback Form</h2>
+
+<form>
+
+<label>Full Name</label>
+
+<br>
+
+<input
+type="text"
+name="fullname"
+placeholder="Enter your full name"
+required
+minlength="3"
+maxlength="40">
+
+<br><br>
+
+<label>Email Address</label>
+
+<br>
+
+<input
+type="email"
+name="email"
+placeholder="Enter your email"
+required>
+
+<br><br>
+
+<h3>Rating</h3>
+
+<input type="radio" name="rating" required>
+<label>Very Satisfied</label>
+
+<br>
+
+<input type="radio" name="rating">
+<label>Satisfied</label>
+
+<br>
+
+<input type="radio" name="rating">
+<label>Neutral</label>
+
+<br>
+
+<input type="radio" name="rating">
+<label>Unsatisfied</label>
+
+<br><br>
+
+<h3>Interests</h3>
+
+<input type="checkbox">
+<label>Web Development</label>
+
+<br>
+
+<input type="checkbox">
+<label>Mobile Development</label>
+
+<br>
+
+<input type="checkbox">
+<label>AI & Machine Learning</label>
+
+<br><br>
+
+<label>Country</label>
+
+<br>
+
+<select required>
+
+<option value="">Select Country</option>
+
+<option>Nepal</option>
+
+<option>India</option>
+
+<option>Australia</option>
+
+</select>
+
+<br><br>
+
+<label>Write your feedback here</label>
+
+<br>
+
+<textarea
+rows="6"
+cols="40"
+placeholder="Write your feedback..."
+required
+maxlength="300">
+</textarea>
+
+<br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+<br>
+
+<a href="index.html">Home</a>
+
+</body>
+
+</html>
